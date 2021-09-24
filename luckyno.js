@@ -13,8 +13,8 @@ let ans=checkValHasEnterd(dob,no);
 if(ans===true){
     let sum=sumOfDate(dob)
     checkLuckyNo(sum,no);
-    date.value="";
-    number.value="";
+    // date.value="";
+    // number.value="";
 }else{
     outputDiv.innerHTML="Please Enter The  Input values"
 }
